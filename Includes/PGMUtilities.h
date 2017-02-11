@@ -58,3 +58,5 @@ inline std::vector<int> findValueFromVector(T value, std::vector<T> srcVec)
 
 template<typename T>
 std::vector<int> findValueFromVector(T value, std::vector <T> srcVec);
+std::vector <double> Normalize(std::vector <double> input);
+double StdDeviation(std::vector <double> input);
