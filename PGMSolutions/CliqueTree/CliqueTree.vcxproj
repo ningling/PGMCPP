@@ -70,9 +70,11 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <IncludePath>C:\Users\Ning Ling\Source\Repos\PGMCPP\PGMSolutions\includes;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)Windows\Lib\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>C:\Users\Ning Ling\Source\Repos\PGMCPP\PGMSolutions\includes;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)includes;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)Windows\Lib\$(Configuration)\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

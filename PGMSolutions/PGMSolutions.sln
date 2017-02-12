@@ -6,12 +6,26 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PGMSolutions", "PGMSolutions\PGMSolutions.vcxproj", "{497E9682-6403-4735-A1BA-ABD7C0A32BC1}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Factors", "Factors\Factors.vcxproj", "{D9D31EA7-973E-4379-B142-8EA80166DBF0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3C7F08D3-BF5C-4BDE-97E5-5795014DD09B} = {3C7F08D3-BF5C-4BDE-97E5-5795014DD09B}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PGMUtilities", "PGMUtilities\PGMUtilities.vcxproj", "{3C7F08D3-BF5C-4BDE-97E5-5795014DD09B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FactorIO", "FactorIO\FactorIO.vcxproj", "{E36F7B97-F991-4EB3-8209-76EAEA59714A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D9D31EA7-973E-4379-B142-8EA80166DBF0} = {D9D31EA7-973E-4379-B142-8EA80166DBF0}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CliqueTree", "CliqueTree\CliqueTree.vcxproj", "{0C9B7E7B-C75D-4C1C-BF82-99ED549E5685}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D9D31EA7-973E-4379-B142-8EA80166DBF0} = {D9D31EA7-973E-4379-B142-8EA80166DBF0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleFactorTutorial", "SampleFactorTutorial\SampleFactorTutorial.vcxproj", "{41E01D02-9E12-4194-AAF4-CE66C6D21B32}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D9D31EA7-973E-4379-B142-8EA80166DBF0} = {D9D31EA7-973E-4379-B142-8EA80166DBF0}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +75,14 @@ Global
 		{0C9B7E7B-C75D-4C1C-BF82-99ED549E5685}.Release|x64.Build.0 = Release|x64
 		{0C9B7E7B-C75D-4C1C-BF82-99ED549E5685}.Release|x86.ActiveCfg = Release|Win32
 		{0C9B7E7B-C75D-4C1C-BF82-99ED549E5685}.Release|x86.Build.0 = Release|Win32
+		{41E01D02-9E12-4194-AAF4-CE66C6D21B32}.Debug|x64.ActiveCfg = Debug|x64
+		{41E01D02-9E12-4194-AAF4-CE66C6D21B32}.Debug|x64.Build.0 = Debug|x64
+		{41E01D02-9E12-4194-AAF4-CE66C6D21B32}.Debug|x86.ActiveCfg = Debug|Win32
+		{41E01D02-9E12-4194-AAF4-CE66C6D21B32}.Debug|x86.Build.0 = Debug|Win32
+		{41E01D02-9E12-4194-AAF4-CE66C6D21B32}.Release|x64.ActiveCfg = Release|x64
+		{41E01D02-9E12-4194-AAF4-CE66C6D21B32}.Release|x64.Build.0 = Release|x64
+		{41E01D02-9E12-4194-AAF4-CE66C6D21B32}.Release|x86.ActiveCfg = Release|Win32
+		{41E01D02-9E12-4194-AAF4-CE66C6D21B32}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

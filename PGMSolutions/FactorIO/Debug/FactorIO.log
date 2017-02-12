@@ -4,4 +4,10 @@ c:\users\ning ling\source\repos\pgmcpp\pgmsolutions\external\hdfs\include\h5exce
 c:\users\ning ling\source\repos\pgmcpp\pgmsolutions\external\hdfs\include\h5exception.h(92): warning C4251: 'H5::Exception::func_name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'H5::Exception'
   c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
 c:\users\ning ling\source\repos\pgmcpp\pgmsolutions\factorio\factorio.cpp(165): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
-  FactorIO.vcxproj -> C:\Users\Ning Ling\Source\Repos\PGMCPP\PGMSolutions\Debug\FactorIO.lib
+zlib.lib(zlib.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in szip.lib(szip.dll); second definition ignored
+zlib.lib(zlib.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+hdf5.lib(hdf5.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in szip.lib(szip.dll); second definition ignored
+hdf5.lib(hdf5.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+hdf5_cpp.lib(hdf5_cpp.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in szip.lib(szip.dll); second definition ignored
+hdf5_cpp.lib(hdf5_cpp.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+  FactorIO.vcxproj -> C:\Users\Ning Ling\Source\Repos\PGMCPP\PGMSolutions\Windows\Lib\Debug\FactorIO.lib
