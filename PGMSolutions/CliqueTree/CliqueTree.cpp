@@ -230,15 +230,10 @@ std::vector<Factor> CliqueTree::ComputeExactMarginalsBP(map<int,int> evidence,bo
 			cliqueVar = calibratedCliques[cliqueCount].GetVar();
 			intIter = find(cliqueVar.begin(), cliqueVar.end(), varList[varCount]);
 			if (intIter!=cliqueVar.end())
-				switch (isMax) 
+				if (!isMax) 
 				{
-				case true:
-					break;
-				case false:
 					retF[varCount] = ComputeMarginal({ varList[varCount] }, { calibratedCliques[cliqueCount] }, evidence);
 					retF[varCount].val = Normalize(retF[varCount].val);
-				default:
-					break;
 				}
 		}
 
