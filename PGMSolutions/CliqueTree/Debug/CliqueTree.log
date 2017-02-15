@@ -1,2 +1,3 @@
 ﻿  CliqueTree.cpp
+c:\users\ning ling\source\repos\pgmcpp\pgmsolutions\cliquetree\cliquetree.cpp(242): warning C4809: switch statement has redundant 'default' label; all possible 'case' labels are given
   CliqueTree.vcxproj -> C:\Users\Ning Ling\Source\Repos\PGMCPP\PGMSolutions\Windows\Lib\Debug\CliqueTree.lib
