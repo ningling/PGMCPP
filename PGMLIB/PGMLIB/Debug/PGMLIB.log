@@ -1,0 +1,7 @@
+﻿  FactorIO.cpp
+c:\program files (x86)\hdf_group\hdf5\1.8.18\include\h5exception.h(91): warning C4251: 'H5::Exception::detail_message': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'H5::Exception'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\program files (x86)\hdf_group\hdf5\1.8.18\include\h5exception.h(92): warning C4251: 'H5::Exception::func_name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'H5::Exception'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\ning ling\source\repos\pgmcpp\pgmlib\pgmlib\factorio.cpp(165): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
+  PGMLIB.vcxproj -> C:\Users\Ning Ling\Source\Repos\PGMCPP\PGMLIB\Windows\Libs\Debug\PGMLIB.lib
